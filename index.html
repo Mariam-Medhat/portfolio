@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="text/html; charset=utf-8; width=device-width,initial-scale=1.0;"/>
+<title>Portfolio</title>
+<style>
+body{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: black;
+    
+}
+.menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-image:url('menu.png');
+  border:2px navy solid;
+  position:fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  outline:5px aqua solid;
+  
+ 
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align:center;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+  text-align:center;
+}
+.mariam{
+ width:12%;
+ height:12%;
+ float:right;
+ margin-top:-5%;
+ margin-bottom:5%;	
+}
+.name{ 
+    padding:5%;
+    text-align:center;
+    color:white;
+    border:3px fuchsia solid;
+    outline: 5px gray solid;
+    background-image: url('background.png');
+    
+	
+}
+.responsive{
+	color:white;
+	margin:50px 2px 4px 250px;
+	font-size:x-large;
+	text-align:justify;
+}
+.mariam::after{
+	content:" ";
+	display:table;
+	clear:both;
+}
+
+@media(max-width:700px){
+.mariam{
+visibility:hidden;	
+}
+body{
+	background-color:gray;
+}
+	
+}
+
+	</style>
+</head>
+
+<body>
+<div class="header" id="name"><h1 class="name">Mariam Medhat Mahmoud Fahmy<img class="mariam" src="myself.jpg"  alt="personal image"></h1></div>
+
+
+<ul class="menu"  >
+  <li><a href="#name"><h2>Mariam Medhat</h2><img src="myself.jpg" style="padding:2px; width:50%;"> </a></li>
+  <li><a href="#summary">Summary</a></li>
+  <li><a href="#skills">Skill Highlights</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#education">Education</a></li>
+  <li><a href="#languages">Languages</a></li>
+  <li><a href="#hobbies">Hobbies</a></li>
+  <li><a href="#additional">Additional Skills</a></li>  
+</ul>
+<div class="responsive">
+<div id="summary" style="font-variant: small-caps;"><h2><ins>Summary</ins></h2><p><b>An enthusiastic and hard-worker 1<sup>st</sup> year student in communication and computer science department.<br> Well-versed in numerous programming languages including: HTML , CSS , C , C++ , C#.<br> Strong background in project management and collaboration with a team.</b></p></div>
+<div id="skills"  style="font-variant: small-caps;"><h2><ins> Skill Hielights </ins></h2><ul><li>Project Management</li><li>Strong decision maker</li><li>Complex problem solver</li><li>Creative design</li><li>Innovative</li><li>Hard-worker</li></ul></div>
+<div id="contact"><h2><ins>Contact</ins></h2><p><ul style="list-style-type:none"><li><ins>Address:</ins><br><i> 2B Nashaty Street, Shoubra, Cairo, Egypt</i></li><li><ins>Phone Number:</ins><br> 24605154</li><li><ins>Mobile Number (1):</ins><br> 01007342613</li><li><ins>Mobile Number (2):</ins><br> 01001459421</li><li><ins>e-mail addresses:</ins><br> mariam195994@feng.bu.edu.eg<br>mariam21100@gmail.com<br>maryamfahmy2010@hotmail.com</li></ul></p></div>
+<div id="education"><h2><ins>Education</ins></h2><ul style="list-style-type:none"><li><ins>Studied at:</ins> Salmyia High School , Kuwait</li><li><ins>Studying at:</ins> Computer Science ,Electronics and communication department, Shoubra Engineering Faculty, Banha University</li></ul></div>
+<div id="languages"><h2><ins>Languages</ins></h2><ul><li>Arabic</li><li>English</li></ul></div>
+<div id="hobbies"><h2><ins>Hobbies</ins></h2><ul><li>Writing</li><li>Playing Music and singing</li><li>Designing computer games and programmes</li></ul></div>
+<div id="additional"><h2><ins>Additional Skills</ins></h2><p>Microsoft Office Package:   Microsoft Word,Excel,Access<br>Database Operation:    Microsoft Office Access<br>Programming:      C,C++,HTML,CSS </p></div>
+</div>
+</body>
+
+</html>
